@@ -1,0 +1,25 @@
+{
+  "name": "@wasong/socket-chat",
+  "version": "1.0.0",
+  "description": "use socketio 2.x to create live chat functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasong/socket-chat.git"
+  },
+  "keywords": [
+    "socket",
+    "chat",
+    "live",
+    "messenger"
+  ],
+  "author": "Andrew Song",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wasong/socket-chat/issues"
+  },
+  "homepage": "https://github.com/wasong/socket-chat#readme"
+}
