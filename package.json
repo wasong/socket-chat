@@ -4,7 +4,8 @@
   "description": "use socketio 2.x to create live chat functionality",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/wasong/socket-chat/issues"
   },
-  "homepage": "https://github.com/wasong/socket-chat#readme"
+  "homepage": "https://github.com/wasong/socket-chat#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
 }
