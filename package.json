@@ -1,6 +1,6 @@
 {
   "name": "@wasong/socket-chat",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "use socketio 2.x to create live chat functionality",
   "main": "index.js",
   "scripts": {
